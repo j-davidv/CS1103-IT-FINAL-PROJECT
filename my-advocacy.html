@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDV Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                    <div class="logo-text"></div>   
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="my-advocacy.html">My Advocacy</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class ="sdg">
+                <header>
+                    <div class="advocacy">
+                        <h1>MY ADVOCACY:</h1>
+                        <p>We are facing an undeniable crisis—climate change. Every moment we waste without action puts our environment, communities, and future at greater risk.
+                            We already see its impact: devastating storms destroying homes, droughts killing crops, and extreme heat affecting our health. 
+                            These are warnings that we must act now.
+                            I don’t want to be part of a generation that remains silent while disasters consume us. 
+                            Let’s make protecting nature a personal mission. Change starts at home: save electricity, reduce plastic use, and dispose of waste properly. 
+                            These small actions can create significant change if we all work together.
+                            Moreover, we need broader action. Corporations and governments must be held accountable for pollution. 
+                            Their choices affect not just our nation but the entire world. Through our voices and votes, we can show that nature is not an optional priority—
+                            it’s our responsibility.
+                            Our actions today are for our children and future generations. Clean air, healthy food, and safe homes should be accessible to all.
+                            The fight won’t be easy, but with unity and detersmination, we can overcome the challenges of climate change. 
+                            Let’s use our love for our country and fellow humans as motivation for change.
+                            We won’t wait for tomorrow. The time is now. Let’s fight together for nature and our future. 🌍
+                        </p>
+                        <div class="sdginfo">
+                            <a href="https://sdgs.un.org/goals/goal13">For information: https://sdgs.un.org/goals/goal13</a>
+                        </div>
+                    </div>
+                    <div class="sdg-pic">
+                        <img src="img/sdg.jpg">
+                    </div>
+                </header>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+    </script>
+</body>
+</html>
