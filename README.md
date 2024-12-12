@@ -5,14 +5,18 @@ Dependencies:
 Font Awesome: For social media icons and other visual elements.
   
   Source: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css
+  
 
   Typed.js: Adds animation for text elements.
   
   Source: https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js
   
+  
 Google Fonts: Poppins font is used for a clean, modern text style.
 
-Setup and Hosting
+
+Setup and Hosting:
+
 
 Download or clone the repository.
 
