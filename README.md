@@ -1,7 +1,7 @@
 This portfolio showcases the work, skills, and interests of John David Villan, an aspiring software engineer. It provides visitors with a clean, modern design to explore projects, view the CV, and connect through social media links.
 
 Dependencies:
-  Font Awesome:
+Font Awesome:
 
   For social media icons and other visual elements.
   Source: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css
